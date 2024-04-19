@@ -1,0 +1,37 @@
+div{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+
+}
+div input{
+    width: 315px;
+    padding: 10px 15px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    outline: none;
+    font-size: var(--font-size-4);
+    background-color: var(--color-blue-3);
+    color: var(--color-black-1);
+   
+}
+
+input::placeholder{
+    color: var(--color-black-3);
+  
+}
+
+#lupa{
+   
+    width: 85px;
+    background-color: var(--color-blue-3);
+    border-radius: 0 15px 15px 0;
+}
+#lupa:after{
+    font-family:FontAwesome;
+    font-size:var(--font-size-4);
+    content:"\f002";
+    color:var(--color-black-1);
+    opacity: 0.8;
+ }
